@@ -2,15 +2,49 @@ body {
   margin:0;
   padding: 0;
 }
-.smallDiv {
-  background-color: red;
-  margin: 5px;
-  float: left;
+
+#container {
+  width: 750px;
+  margin: 0 auto;
 }
-.colorR {
-  background-color: red;
+
+#pad {
+  border: 1px solid black;
+  -webkit-box-shadow:  2px -5px 26px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow:  2px -5px 26px 1px rgba(0,0,0,0.75);
+  box-shadow:  2px -5px 26px 1px rgba(0,0,0,0.75);
+  width: 750px;
+  height: 750px;
+
+
+}
+
+.smallDiv {
+  background-color: white;
+  float: left;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 
 .colorB {
-  background-color: black;
+    background-color: black;
+}
+
+#button1 {
+  text-align: center;
+  padding: 10px;
+}
+
+#button1 h1 {
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.26);
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
